@@ -1,8 +1,34 @@
+An Assignment in IT Entrepreneurship And Management 2566, CE KMITL
+
+##### Team member
+
+[64010037 Kanyarat Chaiyanboon](https://github.com/chompukyrc)
+[64010232 Nattacha Sanmano](https://github.com/naningntch)
+[64010443 Nisachon Yudee](https://github.com/todayIsbamby)
+
+---
+
 # Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more....
+### How to run
 
-## Recommended IDE Setup
+###### Step 1
 
--   [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+clone this repository
+
+###### Step 2
+
+```
+yarn
+```
+
+###### Step 3
+
+```
+yarn dev
+```
+
+---
+
+# Design Module
 
