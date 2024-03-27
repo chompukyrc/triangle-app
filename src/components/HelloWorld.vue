@@ -7,9 +7,26 @@ const side3 = ref(0);
 const result = ref("");
 
 const analyzeTriangle = () => {
+    if (isNaN(side1.value) || side1.value === "") {
+        alert("Side 1 is not a number");
+        return;
+    } else if (isNaN(side2.value) || side2.value === "") {
+        alert("Side 2 is not a number");
+        return;
+    } else if (isNaN(side3.value) || side3.value === "") {
+        alert("Side 3 is not a number");
+        return;
+    }
+
     const a = parseFloat(side1.value);
     const b = parseFloat(side2.value);
     const c = parseFloat(side3.value);
+
+    // Check for a valid triangle first
+    if (a + b <= c || a + c <= b || b + c <= a) {
+        result.value = "Not a valid triangle";
+        return;
+    }
 
     // Check for a valid triangle first
     if (a + b <= c || a + c <= b || b + c <= a) {
