@@ -61,40 +61,42 @@ const analyzeTriangle = () => {
 </script>
 
 <template>
-    <div class="flex w-screen h-screen justify-center items-center text-black">
+    <div
+        class="flex w-screen h-screen justify-center items-center text-black font-mono"
+    >
         <div class="bg-white p-12 rounded-3xl flex flex-col w-fit shadow-xl">
             <div class="font-bold text-2xl mb-8">Enter the length of sides</div>
             <div class="m-2 flex">
-                <p class="w-12 font-semibold">Side 1</p>
+                <p class="w-20 font-semibold">Side 1</p>
                 <input
                     @focus="$event.target.select()"
                     @keyup.enter="analyzeTriangle"
                     type="number"
                     min="0"
                     v-model.number="side1"
-                    class="bg-white border-[0.1rem] border-black rounded-lg ml-4 text-center"
+                    class="bg-white border-[0.1rem] border-black rounded-lg ml-4 text-center w-full"
                 />
             </div>
             <div class="m-2 flex">
-                <p class="w-12 font-semibold">Side 2</p>
+                <p class="w-20 font-semibold">Side 2</p>
                 <input
                     @focus="$event.target.select()"
                     @keyup.enter="analyzeTriangle"
                     type="number"
                     min="0"
                     v-model.number="side2"
-                    class="bg-white border-[0.1rem] border-black rounded-lg ml-4 text-center"
+                    class="bg-white border-[0.1rem] border-black rounded-lg ml-4 text-center w-full"
                 />
             </div>
             <div class="m-2 flex">
-                <p class="w-12 font-semibold">Side 3</p>
+                <p class="w-20 font-semibold">Side 3</p>
                 <input
                     @focus="$event.target.select()"
                     @keyup.enter="analyzeTriangle"
                     type="number"
                     min="0"
                     v-model.number="side3"
-                    class="bg-white border-[0.1rem] border-black rounded-lg ml-4 text-center"
+                    class="bg-white border-[0.1rem] border-black rounded-lg ml-4 text-center w-full"
                 />
             </div>
             <button
@@ -107,6 +109,22 @@ const analyzeTriangle = () => {
             <div v-if="result" class="mt-4 text-center text-xl font-semibold">
                 "{{ result }}"
             </div>
+        </div>
+    </div>
+    <div class="text-white font-mono w-screen flex justify-center mb-1 text-xs">
+        Assignment in IT Entrepreneurship And Management 2566
+    </div>
+    <div class="text-white font-mono w-screen flex justify-center mb-2 text-sm">
+        <div class="flex items-center">
+            64010037
+            <div
+                class="rounded-full w-1 h-1 bg-white flex items-center justify-center mx-2"
+            ></div>
+            64010232
+            <div
+                class="rounded-full w-1 h-1 bg-white flex items-center justify-center mx-2"
+            ></div>
+            64010443
         </div>
     </div>
 </template>
