@@ -31,4 +31,4 @@ yarn dev
 ---
 
 # Design Module
-
+[DesignModule.pdf](https://github.com/chompukyrc/triangle-app/blob/main/public/IT_Entre_DesignModule.pdf)
