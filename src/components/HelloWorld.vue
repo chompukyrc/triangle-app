@@ -64,10 +64,14 @@ const analyzeTriangle = () => {
     <div
         class="flex w-screen h-screen justify-center items-center text-black font-mono"
     >
-        <div class="bg-white p-12 rounded-3xl flex flex-col w-fit shadow-xl">
-            <div class="font-bold text-2xl mb-8">Enter the length of sides</div>
+        <div
+            class="bg-white p-8 mx-2 rounded-3xl flex flex-col w-fit shadow-xl"
+        >
+            <div class="font-bold text-2xl mb-8 text-center">
+                Enter the length of sides
+            </div>
             <div class="m-2 flex">
-                <p class="w-20 font-semibold">Side 1</p>
+                <p class="w-24 font-semibold text-center">Side 1</p>
                 <input
                     @focus="$event.target.select()"
                     @keyup.enter="analyzeTriangle"
@@ -78,7 +82,7 @@ const analyzeTriangle = () => {
                 />
             </div>
             <div class="m-2 flex">
-                <p class="w-20 font-semibold">Side 2</p>
+                <p class="w-24 font-semibold text-center">Side 2</p>
                 <input
                     @focus="$event.target.select()"
                     @keyup.enter="analyzeTriangle"
@@ -89,7 +93,7 @@ const analyzeTriangle = () => {
                 />
             </div>
             <div class="m-2 flex">
-                <p class="w-20 font-semibold">Side 3</p>
+                <p class="w-24 font-semibold text-center">Side 3</p>
                 <input
                     @focus="$event.target.select()"
                     @keyup.enter="analyzeTriangle"
@@ -111,7 +115,9 @@ const analyzeTriangle = () => {
             </div>
         </div>
     </div>
-    <div class="text-white font-mono w-screen flex justify-center mb-1 text-xs">
+    <div
+        class="text-white font-mono w-screen flex justify-center mb-1 text-xs text-center"
+    >
         Assignment in IT Entrepreneurship And Management 2566
     </div>
     <div class="text-white font-mono w-screen flex justify-center mb-2 text-sm">
