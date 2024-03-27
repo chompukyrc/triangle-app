@@ -2,9 +2,9 @@
 
 ##### Team member
 
-[64010037 Kanyarat Chaiyanboon](https://github.com/chompukyrc)
-[64010232 Nattacha Sanmano](https://github.com/naningntch)
-[64010443 Nisachon Yudee](https://github.com/todayIsbamby)
+- [64010037 Kanyarat Chaiyanboon](https://github.com/chompukyrc)
+- [64010232 Nattacha Sanmano](https://github.com/naningntch)
+- [64010443 Nisachon Yudee](https://github.com/todayIsbamby)
 
 ---
 
